@@ -10,6 +10,6 @@
    </c:releases>
    <c:ticket-systems>
       <c:ticket-system id="com.github.io7m.pallene"
-                       url="http://github.com/io7m/pallene/issues"/>
+                       url="http://www.github.com/io7m-com/pallene/issues"/>
    </c:ticket-systems>
 </c:changelog>

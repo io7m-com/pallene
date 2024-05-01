@@ -13,7 +13,7 @@
 
   <groupId>com.io7m.pallene</groupId>
   <artifactId>com.io7m.pallene</artifactId>
-  <version>0.0.2</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>com.io7m.pallene</name>
@@ -33,9 +33,9 @@
   </licenses>
 
   <scm>
-    <url>https://github.com/io7m/pallene</url>
-    <connection>scm:git:https://github.com/io7m/pallene</connection>
-    <developerConnection>scm:git:https://github.com/io7m/pallene</developerConnection>
+    <url>https://www.github.com/io7m-com/pallene</url>
+    <connection>scm:git:https://www.github.com/io7m-com/pallene</connection>
+    <developerConnection>scm:git:https://www.github.com/io7m-com/pallene</developerConnection>
   </scm>
 
   <developers>
@@ -48,7 +48,7 @@
   </developers>
 
   <issueManagement>
-    <url>https://github.com/io7m/pallene/issues</url>
+    <url>https://www.github.com/io7m-com/pallene/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -66,7 +66,7 @@
 
   <ciManagement>
     <system>GitHub Actions</system>
-    <url>https://github.com/io7m/pallene/actions</url>
+    <url>https://www.github.com/io7m-com/pallene/actions</url>
   </ciManagement>
 
   <dependencies>
@@ -98,20 +98,6 @@
   </dependencies>
 
   <build>
-    <pluginManagement>
-      <plugins>
-        <!-- Require JDK 11 -->
-        <plugin>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <configuration>
-            <release>11</release>
-            <source>11</source>
-            <target>11</target>
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-
     <plugins>
       <!-- Check style -->
       <plugin>
