@@ -1,5 +1,5 @@
 /*
- * Copyright © 2017 <code@io7m.com> http://io7m.com
+ * Copyright © 2017 Mark Raynsford <code@io7m.com> https://www.io7m.com
  *
  * Permission to use, copy, modify, and/or distribute this software for any
  * purpose with or without fee is hereby granted, provided that the above
@@ -19,6 +19,7 @@ package com.io7m.pallene;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
+import com.beust.jcommander.internal.DefaultConsole;
 import jnr.ffi.LibraryLoader;
 import jnr.posix.POSIX;
 import jnr.posix.POSIXFactory;
@@ -136,9 +137,8 @@ public final class PalleneYocto
       commander.parse(args);
     } catch (final ParameterException e) {
       LOG.error("parameter error: {}", e.getMessage());
-      final StringBuilder text = new StringBuilder(128);
-      commander.usage(text);
-      LOG.info(text.toString());
+      commander.setConsole(new DefaultConsole(System.err));
+      commander.usage();
       return 1;
     }
 

@@ -1,13 +1,20 @@
 pallene
 ===
 
-[![Travis](https://img.shields.io/travis/io7m/pallene.png?style=flat-square)](https://travis-ci.org/io7m/pallene)
-[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.pallene/com.io7m.pallene.png?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.pallene%22)
-[![Maven Central (snapshot)](https://img.shields.io/nexus/s/https/oss.sonatype.org/com.io7m.pallene/com.io7m.pallene.svg?style=flat-square)](https://oss.sonatype.org/content/repositories/snapshots/com/io7m/pallene/)
-[![Codacy grade](https://img.shields.io/codacy/grade/f638fbf97971498f9dd2b5d6e9a5f586.png?style=flat-square)](https://www.codacy.com/app/github_79/pallene)
-[![Codecov](https://img.shields.io/codecov/c/github/io7m/pallene.png?style=flat-square)](https://codecov.io/gh/io7m/pallene)
+[![Maven Central](https://img.shields.io/maven-central/v/com.io7m.pallene/com.io7m.pallene.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.io7m.pallene%22)
+[![Maven Central (snapshot)](https://img.shields.io/nexus/s/com.io7m.pallene/com.io7m.pallene?server=https%3A%2F%2Fs01.oss.sonatype.org&style=flat-square)](https://s01.oss.sonatype.org/content/repositories/snapshots/com/io7m/pallene/)
+[![Codecov](https://img.shields.io/codecov/c/github/io7m-com/pallene.svg?style=flat-square)](https://codecov.io/gh/io7m-com/pallene)
+![Java Version](https://img.shields.io/badge/21-java?label=java&color=e6c35c)
 
-![pallene](./src/site/resources/pallene.jpg?raw=true)
+![com.io7m.pallene](./src/site/resources/pallene.jpg?raw=true)
+
+| JVM | Platform | Status |
+|-----|----------|--------|
+| OpenJDK (Temurin) Current | Linux | [![Build (OpenJDK (Temurin) Current, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/pallene/main.linux.temurin.current.yml)](https://www.github.com/io7m-com/pallene/actions?query=workflow%3Amain.linux.temurin.current)|
+| OpenJDK (Temurin) LTS | Linux | [![Build (OpenJDK (Temurin) LTS, Linux)](https://img.shields.io/github/actions/workflow/status/io7m-com/pallene/main.linux.temurin.lts.yml)](https://www.github.com/io7m-com/pallene/actions?query=workflow%3Amain.linux.temurin.lts)|
+| OpenJDK (Temurin) Current | Windows | [![Build (OpenJDK (Temurin) Current, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/pallene/main.windows.temurin.current.yml)](https://www.github.com/io7m-com/pallene/actions?query=workflow%3Amain.windows.temurin.current)|
+| OpenJDK (Temurin) LTS | Windows | [![Build (OpenJDK (Temurin) LTS, Windows)](https://img.shields.io/github/actions/workflow/status/io7m-com/pallene/main.windows.temurin.lts.yml)](https://www.github.com/io7m-com/pallene/actions?query=workflow%3Amain.windows.temurin.lts)|
+
 
 ## Usage
 
